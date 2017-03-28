@@ -1,0 +1,109 @@
+* {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  text-decoration: none;
+  font-family: "微软雅黑";
+  font-size: 0.35rem;
+}
+.sxl-liuyan .sxl-tou {
+  width: 16rem;
+  height: 2.125rem;
+  background: #f1f1f1;
+}
+.sxl-liuyan .sxl-tou .sxl-xiao {
+  width: 0.3rem;
+  height: 0.6rem;
+  background: #D51D1E;
+  float: left;
+  margin-left: 0.3rem;
+  margin-top: 0.75rem;
+}
+.sxl-liuyan .sxl-tou .sxl-xiao1 {
+  width: 0.3rem;
+  height: 0.6rem;
+  background: #ffffff;
+  float: left;
+  margin-top: 0.75rem;
+}
+.sxl-liuyan .sxl-tou .sxl-zi {
+  font-size: 0.75rem;
+  color: #000000;
+  float: left;
+  margin-top: 0.5rem;
+  margin-left: 0.5rem;
+}
+.sxl-liuyan i {
+  display: block;
+  font-size: 0.75rem;
+  padding-top: 1.5rem;
+  margin-left: 4.5rem;
+  float: left;
+}
+.sxl-liuyan p {
+  float: left;
+  font-size: 0.75rem;
+  margin-top: 1.3rem;
+  margin-left: 0.1rem;
+}
+.sxl-liuyan input {
+  width: 14.9rem;
+  height: 2.4rem;
+  border: 1px solid #CCCCCC;
+  font-size: 0.625rem;
+  margin-left: 0.6rem;
+  padding-left: 2.8rem;
+  border-radius: 5px;
+}
+.sxl-liuyan .sxl-ming {
+  position: absolute;
+  top: 4.7rem;
+  left: 1.7rem;
+}
+.sxl-liuyan .sxl-ming li {
+  font-size: 0.625rem;
+  color: #000000;
+  margin-top: 1.8rem;
+}
+.sxl-liuyan .an {
+  width: 14.9rem;
+  height: 2.4rem;
+  background: #d24445;
+  color: #FFFFFF;
+  font-size: 0.75rem;
+  border: none;
+  border-radius: 5px;
+  margin-left: 0.6rem;
+  margin-top: 2rem;
+}
+.sxl-liuyan .sxl-yan {
+  width: 14.9rem;
+  height: 5rem;
+  border: 1px solid #CCCCCC;
+  font-size: 0.625rem;
+  margin-left: 0.6rem;
+  padding-left: 1.5rem;
+  border-radius: 5px;
+}
+.sxl-liuyan .show{
+	width:100%;
+	height:100%;
+	background:rgba(0,0,0,0.5);
+	position: absolute;
+	top:0;
+}
+.sxl-liuyan .show span{
+	width:9.6rem;
+	height:5rem;
+	background:#fff;
+	display: block;
+	position: absolute;
+	top:50%;
+	left:50%;
+	margin-left:-4.8rem;
+	margin-top:-2.5rem;
+	border-radius: 10px;
+	line-height:5rem;
+	text-align: center;
+	font-size:0.6rem;
+}

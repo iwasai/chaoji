@@ -1,0 +1,18 @@
+<div class="lby_news" ng-controller="jgr">
+	<div class="tatle">
+		<div class="left">
+			<span class="span1"></span>
+			<span class="span2"></span>
+		</div>
+		新闻资讯
+		<div class="right">
+			<img src="images/right.jpg">
+		</div>
+	</div>
+	<ul ng-repeat="w in quan">
+		<li ng-click="di($index)"><span style="font-size: 0.7rem;">{{w.title}}</span><img src="images/a (1).gif" style="width: 3.25rem;"></li>
+	</ul>
+	<div class="top">
+		<a href="javascript:;" id="Top">Top<img src="images/top.jpg"></a>
+	</div>
+</div>

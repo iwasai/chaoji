@@ -1,0 +1,50 @@
+<div class='sth-admin' ng-controller="anli">
+	<div class="release">
+		<span>新闻列表</span>
+		<input type="button" value="发布" ng-click="fabu()"/>
+	</div>
+	<div id="content">
+		<input type="text" placeholder="新闻标题"/ style=" width:14.9rem;height: 2.4rem; border:1px solid #CCCCCC;
+            font-size: 0.6rem;
+            padding-left: 2.8rem;
+            border-radius: 5px;" ng-model="biaoti" id="jia">
+		<input type="text" placeholder="新闻来源"  ng-model="laiyuan" style=" width:14.9rem;height: 2.4rem; border:1px solid #CCCCCC;
+            font-size: 0.6rem;
+            padding-left: 2.8rem;
+            border-radius: 5px;"/>
+		<input type="text" placeholder="发布时间"  ng-model="shijian" style=" width:14.9rem;height: 2.4rem; border:1px solid #CCCCCC;
+            font-size: 0.6rem;
+            padding-left: 2.8rem;
+            border-radius: 5px;"/>
+		<input type="text" placeholder="发布人"  ng-model="laizi" style=" width:14.9rem;height: 2.4rem; border:1px solid #CCCCCC;
+            font-size: 0.6rem;
+            padding-left: 2.8rem;
+            border-radius: 5px;"/>
+		<p style="font-size: 0.7rem;margin-top: 0.2rem;">新闻内容:</p>
+		<textarea ng-model="xinwen" style="width: 14.9rem;height: 5rem;border-radius: 5px;"></textarea>
+	</div>
+	<div class="releaseContent">
+		<p style="margin-top: 11rem;">已有新闻</p>
+		<ul class="ul">
+			<li ng-repeat="a in quan">
+				<p><span><img src="images/a (1).gif"></span><span>{{a.title}}<a ng-click="shan($index)" class="dian">删除</a></span></p>
+				<p></p>
+			</li>
+		</ul>
+	</div>
+	<div class="footers">
+		<ul>
+			<li ui-sref="admin">新闻</li>
+			<li ui-sref="manage">案例</li>
+			<li ui-sref='words'>留言</li>
+			<li ui-sref='home'>首页</li>
+		</ul>
+	</div>
+	<div class="show">
+		<p>详情</p>
+		<p>删除</p>
+		<p class="up">取消</p>
+	</div>
+	<div class="op">
+	</div>
+</div>

@@ -1,0 +1,212 @@
+* {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  text-decoration: none;
+  font-family: "微软雅黑";
+  font-size: 0.35rem;
+}
+.sth-home {
+  width: 100%;
+  margin-bottom: 20%;
+}
+.sth-head {
+  width: 100%;
+  height: 2.95rem;
+  background: #000;
+}
+.sth-Carousel {
+  width: 100%;
+  height: 7.5rem;
+  background: #000;
+}
+.sth-Carousel > img {
+  width: 100%;
+  height: 7.5rem;
+}
+.sth-function {
+  width: 100%;
+  padding: 0 1.5%;
+  height: 10.75rem;
+}
+.sth-function li p {
+  font-size: 0.65rem;
+  color: #FFF;
+}
+.sth-function li p > img {
+  width: 1.475rem;
+  height: 1.3rem;
+}
+.sth-function > ul:nth-child(1) > li {
+  float: left;
+  margin-right: 1.5%;
+}
+.sth-function > ul:nth-child(1) > li:nth-child(1) {
+  background: #f4b613;
+  width: 6.075rem;
+  height: 4.675rem;
+}
+.sth-function > ul:nth-child(1) > li:nth-child(1) > p:nth-child(1) {
+  margin-left: 8%;
+  margin-top: 10%;
+  margin-bottom: 15%;
+}
+.sth-function > ul:nth-child(1) > li:nth-child(1) > p:nth-child(2) {
+  padding-left: 60%;
+}
+.sth-function > ul:nth-child(1) > li:nth-child(2) {
+  background: #ff8a4a;
+  width: 4.425rem;
+  height: 4.675rem;
+}
+.sth-function > ul:nth-child(1) > li:nth-child(2) > p:nth-child(1) {
+  margin-left: 37%;
+  margin-top: 13%;
+  margin-bottom: 22%;
+}
+.sth-function > ul:nth-child(1) > li:nth-child(2) > p:nth-child(2) {
+  text-align: center;
+}
+.sth-function > ul:nth-child(1) > li:nth-child(3) {
+  background: #fc5265;
+  width: 4.425rem;
+  height: 4.675rem;
+  margin-right: 0;
+}
+.sth-function > ul:nth-child(1) > li:nth-child(3) > p:nth-child(1) {
+  margin-left: 8%;
+  margin-top: 10%;
+  margin-bottom: 20%;
+}
+.sth-function > ul:nth-child(1) > li:nth-child(3) > p:nth-child(2) {
+  padding-left: 60%;
+}
+.sth-function > ul:nth-child(2) > li {
+  margin-top: 1.5%;
+  float: left;
+  margin-right: 1.5%;
+}
+.sth-function > ul:nth-child(2) > li:nth-child(1) {
+  background: #84d018;
+  width: 7.575rem;
+  height: 5.65rem;
+}
+.sth-function > ul:nth-child(2) > li:nth-child(1) > p:nth-child(1) {
+  margin-left: 8%;
+  margin-top: 8%;
+  margin-bottom: 20%;
+}
+.sth-function > ul:nth-child(2) > li:nth-child(1) > p:nth-child(2) {
+  padding-left: 60%;
+}
+.sth-function > ul:nth-child(2) > li:nth-child(2) {
+  background: #14c761;
+  width: 7.575rem;
+  height: 5.65rem;
+  margin-right: 0;
+}
+.sth-function > ul:nth-child(2) > li:nth-child(2) > p:nth-child(1) {
+  margin-left: 8%;
+  margin-top: 8%;
+  margin-bottom: 20%;
+}
+.sth-function > ul:nth-child(2) > li:nth-child(2) > p:nth-child(2) {
+  padding-left: 60%;
+}
+.sth-news {
+  width: 100%;
+  height: 2.025rem;
+  line-height: 2.025rem;
+  background: #f2f2f2;
+  padding: 0 1.5%;
+  margin-top: -.5%;
+}
+.sth-news > ul > li {
+  float: left;
+  line-height: 2.025rem;
+}
+.sth-news > ul > li:nth-child(1) {
+  width: 0.3rem;
+  height: 0.6rem;
+  background: #ce2122;
+  margin-top: 5%;
+}
+.sth-news > ul > li:nth-child(2) {
+  font-size: 0.75rem;
+  margin-left: 5%;
+}
+.sth-news > ul > li:nth-child(3) {
+  font-size: 0.8rem;
+  float: right;
+  color: #ce2122;
+  margin-right: 1.5%;
+  line-height: 1.875rem;
+}
+.sth-newsList {
+  width: 100%;
+  padding: 0 1.5%;
+  margin-top: 4%;
+  clear: both;
+}
+.sth-newsList > ul {
+  border-bottom: .05rem solid #CCCCCC;
+  padding-top: 0.2rem;
+  height: 4rem;
+}
+.sth-newsList > ul > li {
+  float: left;
+  margin-bottom: 4%;
+}
+.sth-newsList > ul > li > img {
+  width: 3.25rem;
+  height: 2rem;
+}
+.sth-newsList > ul > li:nth-child(2) {
+  width: 73%;
+  margin-left: 2%;
+  height: 2.025rem;
+  overflow: hidden;
+  font-size: 0.6rem;
+}
+.sth-newsList > ul > p {
+  margin-bottom: 5%;
+  font-size: 0.55rem;
+}
+.sth-newsList > ul:last-child {
+  border-bottom: 0rem solid #CCCCCC;
+}
+.sth-top {
+  width: 100%;
+  padding: 0 3%;
+  height: 1.4rem;
+  line-height: 1.4rem;
+  background: #ce2122;
+  text-align: right;
+  color: #FFFFFF;
+  font-size: 0.75rem;
+}
+.sth-top > span {
+  float: right;
+  display: block;
+  width: 0;
+  height: 0;
+  border: .25rem solid transparent;
+  border-bottom: .25rem solid #FFFFFF;
+  margin-top: 3%;
+  margin-left: 2%;
+}
+.sth-foot {
+  padding-top: 2%;
+  margin-bottom: 3rem;
+}
+.sth-foot p {
+  font-size: 0.7rem;
+  text-align: center;
+  line-height: 1.25rem;
+}
+.sth-foot p > img {
+  width: 0.8rem;
+  height: 0.8rem;
+  vertical-align: middle;
+}
+/*# sourceMappingURL=home.css.map */

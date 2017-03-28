@@ -1,0 +1,14 @@
+<div class="sxl-zuida" ng-controller="list">
+		<div class="sxl-biao">
+			<img src="images/sxl-tui.png">
+			会员登录
+		</div>
+		<input type="text" placeholder="请输入账号" style="border-bottom: none;margin-top: 0.75rem;" ng-model="username">
+		<input type="password" placeholder="请输入密码" ng-model="password"/>
+		<ul class="sxl-ming">
+			<li>账号</li>
+			<li>密码</li>
+		</ul>
+		<button class="an" ng-click="denglu()">登录</button>
+		<div class="zhuce" ui-sref="login">免费注册</div>
+	</div>

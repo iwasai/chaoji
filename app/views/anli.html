@@ -1,0 +1,29 @@
+<div class="anli" ng-controller="woqu">
+	<div class="tatle">
+		<div class="left">
+			<span class="span1"></span>
+			<span class="span2"></span>
+		</div>
+		精选案例
+		<div class="right">
+			<img src="images/right.jpg">
+		</div>
+	</div>
+	<ul>
+		<li ng-repeat="tu in arr" class="img1"><img ng-src="{{tu.img}}"/></li>
+	</ul>
+	<div class="top">
+		<a href="javascript:;" id="Top">Top<img src="images/top.jpg"></a>
+	</div>
+	<div ui-view></div>
+	<div class="lobo1">
+		
+	</div>
+	<div class="lobo">
+		<div id="lo">
+			<div ng-repeat="tu in arr"><img ng-src="{{tu.img}}" /></div>
+		</div>
+		<span id="left">上一张</span>
+		<span id='right'>下一张</span>
+	</div>
+</div>

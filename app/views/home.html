@@ -1,0 +1,51 @@
+<div class="sth-home" ng-controller="jgr">
+	<div class="sth-head" style="background:#FFFFFF;border-bottom: .2rem solid #ce2122;">
+		<img src="images/logo1.png" style="width: 5rem;height: 1.5rem;margin-top: .6rem;margin-left: .5rem;"/>
+	</div>
+	<div class="sth-Carousel">
+			<img src="images/a (1).gif"/>
+	</div>
+	<div class="sth-function">
+		<ul>
+			<li ui-sref="list">
+				<p>会员登录</p>
+				<p><img src="images/a (4).gif"/></p>
+			</li>
+			<li ui-sref="login">
+				<p><img src="images/a (2).gif"/></p>
+				<p>会员注册</p>
+			</li>
+			<li ui-sref="anli">
+				<p>精选案例</p>
+				<p><img src="images/a (3).gif"/></p>
+			</li>
+		</ul>
+		<ul>
+			<li ui-sref="news">
+				<p>新闻资讯</p>
+				<p><img src="images/a (5).gif"/></p>
+			</li>
+			<li ui-sref="liuyan">
+				<p>在线留言</p>
+				<p><img src="images/a (6).gif"/></p>
+			</li>
+		</ul>
+	</div>
+	<div class="sth-news">
+		<ul ui-sref="news">
+			<li></li>
+			<li>公司新闻</li>
+			<li> 〉 </li>
+		</ul>
+	</div>
+	<div class="sth-newsList" ng-repeat="d in quan">
+		<ul ng-click="di($index)">
+			<li><img src="images/a (1).gif"></li>
+			<li style="font-size: 0.7rem;margin-left: 0.8rem;">{{d.title}}</li>
+			<p>{{d.time}}</p>
+		</ul>
+	</div>
+	<div class="sth-top">
+		<a href="javascript:;" id="Top">Top<img src="images/top.jpg"></a>
+	</div>
+</div>

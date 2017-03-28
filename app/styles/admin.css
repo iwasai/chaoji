@@ -1,0 +1,203 @@
+* {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  text-decoration: none;
+  font-family: "微软雅黑";
+  font-size: 0.35rem;
+}
+.sth-admin {
+  width: 100%;
+  margin-bottom: 20%;
+}
+.release {
+  background: #ce2122;
+  padding: 0 5%;
+}
+.release > span {
+  font-size: 0.75rem;
+  line-height: 2rem;
+  color: #FFF;
+}
+.release input {
+  float: right;
+  width: 3rem;
+  height: 1rem;
+  font-size: 0.5rem;
+  margin-top: 3%;
+  border-radius: 0.3rem 0.3rem 0.3rem 0.3rem;
+  color: #ce2122;
+  background: #B92C28;
+  border:1px solid #B92C28;
+  color:#fff;
+}
+#content {
+  width: 100%;
+  padding: 5%;
+  height: 6.625rem;
+}
+#content #image-wrap {
+  width: 10rem;
+  height: 5rem;
+  background: #CCCCCC;
+}
+#content > div {
+  float: left;
+  margin-right: 2%;
+  border-radius: 0.3rem 0.3rem 0.3rem 0.3rem;
+}
+#content > div > img {
+  width: 14.9rem;
+  height: 5rem;
+  border-radius: 0.3rem 0.3rem 0.3rem 0.3rem;
+}
+#content > input:nth-child(2) {
+  margin-top: 10%;
+  width: 3.75rem;
+  height: 2rem;
+  margin-top: 0%;
+  border-radius: 0.3rem 0.3rem 0.3rem 0.3rem;
+  color: #fc5265;
+  font-size: 0.7rem;
+}
+#content #file {
+  margin-left: 3%;
+  margin-top: -11%;
+  width: 14.9rem;
+  height: 2.4rem;
+  opacity: 0;
+}
+.releaseContent > p {
+  padding: 0 5%;
+  width: 100%;
+  height: 2rem;
+  background: #ce2122;
+  font-size: 0.75rem;
+  line-height: 2rem;
+  color: #FFF;
+  margin-bottom: 5%;
+}
+.releaseContent > textarea {
+  margin-left: 5%;
+  width: 14.5rem;
+  height: 5rem;
+  margin-bottom: 2%;
+}
+.releaseContent > ul {
+  width: 100%;
+  padding: 0 5%;
+}
+.releaseContent > ul > li {
+  border-bottom: .05rem solid #CCCCCC;
+  padding-top: 3%;
+  line-height:2rem;
+  position: relative;
+}
+.releaseContent > ul > li > p > span:nth-child(1) {
+  width: 5rem;
+  height: 3.25rem;
+  line-height: 3.25rem;
+  margin-right: 2%;	
+}
+.releaseContent > ul > li > p > span:nth-child(1) > img {
+  width: 1.5rem;
+  height: 2rem;
+}
+.releaseContent > ul > li > p > span:nth-child(2) {
+  display: inline-block;
+  width: 9rem;
+  height: 2rem;
+  line-height: 1rem;
+  font-size: 0.7rem;
+}
+.releaseContent a{
+	display: block;
+	width:3rem;
+	height:2rem;
+	position: absolute;
+	right:0.5rem;
+	font-size: 0.8rem;
+	top:1.6rem;
+}
+.releaseContent > ul > li:last-child {
+  border-bottom: 0rem solid #CCCCCC;
+  margin-bottom:3rem;
+}
+.footers {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 2.5rem;
+  background: #ce2122;
+}
+.footers > ul > li {
+  float: left;
+  font-size: 0.75rem;
+  height: 2.5rem;
+  line-height: 2.5rem;
+  color: #FFF;
+  width: 25%;
+  width: 5.3rem;
+  text-align: center;
+}
+.show {
+  width: 100%;
+  height: 8.75rem;
+  position: fixed;
+  left: 0;
+  bottom: -100%;
+  z-index: 999;
+  padding-top: 2%;
+}
+.show > p {
+  width: 90%;
+  height: 2rem;
+  line-height: 2rem;
+  font-size: 0.7rem;
+  background: #FFFFFF;
+  margin: 3% auto;
+  border-radius: 0.5rem 0.5rem 0.5rem 0.5rem;
+  text-align: center;
+}
+.op {
+  display: none;
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  z-index: 1;
+  background: rgba(0, 0, 0, 0.5);
+}
+.manage {
+  padding-bottom: 40%;
+}
+.chart {
+  width: 100%;
+}
+.chart ul > li {
+  width: 45%;
+  height: 3.75rem;
+  float: left;
+  margin-left: 3%;
+  margin-bottom: 5%;
+}
+.chart ul > li > img {
+  width: 100%;
+  height: 3.75rem;
+  float: left;
+}
+.words {
+  width: 100%;
+  padding-bottom: 20%;
+}
+.words .wordsList {
+  width: 100%;
+  padding: 0 5%;
+}
+.words .wordsList > ul > li {
+  margin-top: 5%;
+  font-size: 0.7rem;
+}
+/*# sourceMappingURL=admin.css.map */

@@ -1,0 +1,27 @@
+<div class="words" ng-controller="yan">
+	<div class="release">
+		<span>留言列表</span>
+	</div>
+	<div class="wordsList">
+		<ul class="ul">
+			<li ng-repeat="a in arr" style=";padding: 3% 0;padding-bottom:7%;border-bottom: 0.05rem solid #CCCCCC;">
+				<p style="color: #ce2122;font-size: .6rem;">{{a.name}}</p>
+				{{a.content}}
+			</li>
+		</ul>
+	</div>
+	<div class="footers">
+		<ul>
+			<li ui-sref="admin">新闻</li>
+			<li ui-sref="manage">案例</li>
+			<li ui-sref='words'>留言</li>
+		</ul>
+	</div>
+	<div class="show">
+		<p>详情</p>
+		<p>删除</p>
+		<p class="up">取消</p>
+	</div>
+	<div class="op">
+	</div>
+</div>

@@ -1,0 +1,28 @@
+* {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  text-decoration: none;
+  font-family: "微软雅黑";
+}
+.xiangqing .biaoti {
+  width: 16rem;
+  height: 4.025rem;
+  background: url(../images/wall6.jpg);
+  background-size: 100% 100%;
+  text-align: center;
+  color: #FFFFFF;
+  line-height: 4.025rem;
+}
+.xiangqing .biaoti b {
+  font-size: 0.75rem;
+}
+
+.xiangqing p {
+  padding: 0.5rem;
+  font-size: 0.65rem;
+}
+.xiangqing p img {
+  width: 4.35rem;
+  height: 1.05rem;
+}

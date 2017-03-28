@@ -1,0 +1,107 @@
+*{
+    padding: 0;
+    margin:0;
+    list-style: none;
+    text-decoration: none;
+    font-family: "微软雅黑";
+    .fs(14rem);
+}
+.fs(@f:0){
+    font-size:@f/20/2;
+}
+.w(@w:0){
+  width: @w/20/2;
+}
+.h(@h:0){
+  height: @h/20/2;
+}
+.lh(@lh:0){
+  line-height: @lh/20/2;
+}
+.t(@t:0){
+  top:@t/20/2;
+}
+.l(@l:0){
+  left:@l/20/2;
+}
+.anli{
+    overflow: hidden;
+    .w(640rem);
+    .tatle{
+        .w(640rem);
+        .h(80rem);
+        background:#f2f2f2;
+        .lh(80rem);
+        .fs(30rem);
+        text-indent:0.4rem;
+        .left{
+            .w(24rem);
+            .h(24rem);
+            float:left;
+            margin:0.7rem 0 0 0.3rem;
+            .span1{
+                display: inline-block;
+                float: left;
+                background:#ce2122;
+                .w(12rem);
+                .h(24rem);
+            }
+            .span2{
+                display: inline-block;
+                background:#fff;
+                float: left;
+                .w(12rem);
+                .h(24rem);
+            }
+        }
+        .right{
+            float:right;
+            img{
+                .w(14rem);
+                .h(25rem);
+                margin-right:0.8rem;
+                margin-bottom:0.3rem;
+            }
+        }
+    }
+    ul{
+        .w(609rem);
+        overflow: hidden;
+        -margin: 0 auto;
+        margin-top:0.5rem;
+        margin-left:1.1rem;
+        li{
+            float:left;
+            margin-right:0.8rem;
+            margin-bottom:0.5rem;
+            img{
+                .w(260rem);
+                .h(207rem);
+            }
+        }
+    }
+    p{
+        text-align:center;
+        color:#ce2122;
+        .fs(25rem);
+    }
+    .top{
+        .w(640rem);
+        .h(56rem);
+        background:#ce2122;
+        .lh(56rem);
+         margin-bottom:4rem;
+        a{
+            float:right;
+            color:#fff;
+            font-weight:bold;
+            .fs(24rem);
+            margin-right:0.5rem;
+            img{
+                margin-left:0.4rem;
+                .w(13rem);
+                .h(7rem);
+            }
+        }
+    }
+}

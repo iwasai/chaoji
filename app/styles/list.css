@@ -1,0 +1,65 @@
+* {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  text-decoration: none;
+  font-family: "微软雅黑";
+  font-size: 0.35rem;
+}
+body {
+  background: #F7F7F7;
+}
+.sxl-zuida .sxl-biao {
+  background: #ffffff;
+  width: 16rem;
+  height: 2.05rem;
+  font-size: 0.85rem;
+  line-height: 2.05rem;
+  text-align: center;
+  color: #d51d1e;
+}
+.sxl-zuida .sxl-biao img {
+  width: 0.55rem;
+  height: 0.975rem;
+  position: absolute;
+  left: 0.5rem;
+  top: 0.5rem;
+}
+.sxl-zuida input {
+  width: 14.9rem;
+  height: 2.4rem;
+  border: 1px solid #CCCCCC;
+  font-size: 0.625rem;
+  margin-left: 0.6rem;
+  padding-left: 2.8rem;
+  border-radius: 5px;
+}
+.sxl-zuida .sxl-ming {
+  position: absolute;
+  top: 2.2rem;
+  left: 1.2rem;
+}
+.sxl-zuida .sxl-ming li {
+  font-size: 0.625rem;
+  color: #000000;
+  margin-top: 1.45rem;
+}
+.sxl-zuida .an {
+  width: 14.9rem;
+  height: 2.4rem;
+  background: #d24445;
+  color: #FFFFFF;
+  font-size: 0.75rem;
+  border: none;
+  border-radius: 5px;
+  margin-left: 0.6rem;
+  margin-top: 0.5rem;
+}
+.sxl-zuida .zhuce {
+  float: right;
+  font-size: 0.675rem;
+  color: #D51D1E;
+  margin-right: 0.7rem;
+  margin-top: 0.5rem;
+}
+/*# sourceMappingURL=lais.css.map */

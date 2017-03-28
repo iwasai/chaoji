@@ -1,0 +1,45 @@
+*{
+    padding: 0;
+    margin:0;
+    list-style: none;
+    text-decoration: none;
+    font-family: "微软雅黑";
+}
+.fs(@f:0){
+    font-size:@f/20/2;
+}
+.w(@w:0){
+  width: @w/20/2;
+}
+.h(@h:0){
+  height: @h/20/2;
+}
+.lh(@lh:0){
+  line-height: @lh/20/2;
+}
+.t(@t:0){
+  top:@t/20/2;
+}
+.l(@l:0){
+  left:@l/20/2;
+}
+.xiangqing{
+    .biaoti{
+        b{.fs(30rem);}
+        .w(640rem);
+        .h(161rem);
+        background: url(images/wall6.jpg);
+        background-size: 100% 100%;
+        text-align: center;
+        color: #FFFFFF;
+        .lh(161rem);
+    }
+    p{
+        padding: 0.5rem;
+        .fs(26rem);
+        img{
+            .w(174rem);
+            .h(42rem);
+        }
+    }
+}

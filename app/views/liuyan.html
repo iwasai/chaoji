@@ -1,0 +1,29 @@
+<div class="sxl-liuyan" ng-controller="words">
+	<div class="sxl-tou">
+		<div class="sxl-xiao"></div>
+		<div class="sxl-xiao1"></div>
+		<div class="sxl-zi">留言板</div>
+	</div>
+	<i class="icon-pencil"></i><p>&nbsp;发表您的留言:</p>
+	<input type="text" placeholder="姓名(必填)" style="margin-top: 0.75rem;border-bottom: none;" ng-model="xingming"/>
+	<input type="text" placeholder="邮箱" style="border-bottom: none;" ng-model="youxiang"/>
+	<input type="text" placeholder="电话"  ng-model="dianhua"/>
+	<textarea class="sxl-yan" ng-model="neiron">
+		
+	</textarea>
+	<ul class="sxl-ming">
+		<li class="icon-user-tie"></li>
+		<li class="icon-mail2"></li>
+		<li class="icon-phone"></li>
+		<li class="icon-file-text"></li>
+	</ul>
+	
+	<button class="an" ng-click="tianjia()">提交</button>
+	<div class="show" ng-show="ts" ng-click="hide()">
+		<span>尊敬的客户，请输入您的姓名</span>
+	</div>
+	<div class="show" ng-show="ly" ng-click="ly_hide()">
+		<span>尊敬的客户，您的留言不能为空</span>
+	</div>
+	
+</div>

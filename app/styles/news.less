@@ -1,0 +1,214 @@
+*{
+    padding: 0;
+    margin:0;
+    list-style: none;
+    text-decoration: none;
+    font-family: "微软雅黑";
+}
+.fs(@f:0){
+    font-size:@f/20/2;
+}
+.w(@w:0){
+  width: @w/20/2;
+}
+.h(@h:0){
+  height: @h/20/2;
+}
+.lh(@lh:0){
+  line-height: @lh/20/2;
+}
+.t(@t:0){
+  top:@t/20/2;
+}
+.l(@l:0){
+  left:@l/20/2;
+}
+.lby_news{
+    overflow: hidden;
+    .w(640rem);
+    .tatle{
+        .w(640rem);
+        .h(80rem);
+        background:#f2f2f2;
+        .lh(80rem);
+        .fs(30rem);
+        text-indent:0.4rem;
+        .left{
+            .w(24rem);
+            .h(24rem);
+            float:left;
+            margin:0.7rem 0 0 0.3rem;
+            .span1{
+                display: inline-block;
+                float: left;
+                background:#ce2122;
+                .w(12rem);
+                .h(24rem);
+            }
+            .span2{
+                display: inline-block;
+                background:#fff;
+                float: left;
+                .w(12rem);
+                .h(24rem);
+            }
+        }
+        .right{
+            float:right;
+            img{
+                .w(14rem);
+                .h(25rem);
+                margin-right:0.8rem;
+                margin-bottom:0.3rem;
+            }
+        }
+    }
+    ul{
+        .w(640rem);
+        overflow: hidden;
+        li{
+            .w(640rem);
+            .h(133rem);
+            margin:0 auto;
+            margin-top:0.3rem;
+            .lh(70rem);
+            border-bottom:1px solid #e6e6e6;
+            span{
+               .fs(24rem);
+                float: left;
+                margin:0.3rem 0 0 0.45rem;
+            }
+            img{
+                float:right;
+                .w(90rem);
+                .h(90rem);
+                margin-right:0.45rem;
+            }
+        }
+    }
+    .top{
+        .w(640rem);
+        .h(56rem);
+        background:#ce2122;
+        .lh(56rem);
+         margin-bottom:4rem;
+        a{
+            float:right;
+            color:#fff;
+            font-weight:bold;
+            .fs(24rem);
+            margin-right:0.5rem;
+            img{
+                margin-left:0.4rem;
+                .w(13rem);
+                .h(7rem);
+            }
+        }
+    }
+    p{
+        .fs(24rem);
+        text-align: center;
+        color:#ce2122;
+    }
+}
+.nav_btn{
+    .w(81rem);
+    .h(81rem);
+    background:#ce2122;
+    border-radius: 0.2rem;
+    position: fixed;
+    bottom:3rem;
+    left:0.5rem;
+    box-shadow: 0px 0px 10px 2px #ccc;
+    a{
+        display: block;
+        margin-top:0.5rem;
+        span{
+            display: block;
+            .w(46rem);
+            .h(6rem);
+            background:#fff;
+            margin:0 auto;
+            margin-bottom: 0.2rem;
+            border-radius: 0.1rem;
+        }
+    }
+}
+.nav{
+    .w(640rem);
+    height:100%;
+    position: fixed;
+    z-index: 1;
+    top:0;
+    -background:rgba(0,0,0,0.5);
+     transition: all 0.5s ease;
+    transform: translateX(-16rem); 
+    ul{
+        height:100%;
+        .w(250rem);
+        background:#fff;
+        padding-top:4rem;
+        text-align: left;
+        background: #ce2122;
+        float:left;
+        
+        li{
+            .h(88rem);
+            .w(250rem);
+            .fs(30rem);
+            padding-left:1.25rem;
+            .lh(88rem);
+            color:#fff;
+            transition: all 0.5s;
+        }
+        .active{
+            background: #f5d3d3;
+            color:#666;
+        }
+    }
+    .right{
+        .w(390rem);
+        height:100%;
+        float: left;
+    }
+}
+footer{
+    .w(640rem);
+    .h(101rem);
+    border-top:1px solid #eeb1b1;
+    position: fixed;
+    bottom: 0;
+    background:#ce2122;
+    li{
+        float: left;
+        .w(160rem);
+        text-align: center;
+        margin-top:0.25rem;
+        img{
+            display: block;
+            margin:0 auto;
+        }
+        .foot1{
+            .w(43rem);
+            .h(43rem);
+        }
+       .foot2{
+            .w(44rem);
+            .h(43rem);
+        }
+        .foot3{
+            .w(34rem);
+            .h(43rem);
+        }
+        .foot4{
+            .w(35rem);
+            .h(43rem);
+        }
+        a{
+            .fs(22rem);
+            display: block;
+            margin-top:0.2rem;
+            color:#fff;
+        }
+    }
+}
