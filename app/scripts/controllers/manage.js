@@ -10,11 +10,9 @@
  */
 angular.module('appApp')
 	.controller('manage', ['$scope', '$http', '$state', function($scope, $http, $state) {
-		
 		var input = document.getElementById("file");
 		var result = document.getElementById("result");
 		var img_area = document.getElementById("image-wrap");
-		
 		if(typeof(FileReader) === 'undefined') {
 			result.innerHTML = "抱歉，你的浏览器不支持 FileReader，请使用现代浏览器操作！";
 			input.setAttribute('disabled', 'disabled');
@@ -35,25 +33,25 @@ angular.module('appApp')
 			img_area.innerHTML = '<img src="' + this.result + '" alt="" class="imgSrc"/>'
 		}
 	}
-		
 		$scope.arr = [];
-		$scope.img = []
+		$scope.img = [];
 		$scope.odd = function() {
 			var img = document.getElementsByClassName('imgSrc')[0]
 			var ding = document.getElementsByClassName('ding')[0]
 			$scope.img = img.src
+			ding.style.display='block' 
 			if(img.src == ''){
 				alert('请插入图片')
 				ding.style.display='none'
 			}else{
 				$http({
-				url: Idz+"/anli",
+				url: Idz+"/anli2",
 				method: "post",
-				data: {
-					img: $scope.img
+				data:{
+					img:$scope.img
 				}
 			}).then(function(data) {
-				ding.style.display='block'
+				console.log(data)
 				console.log(data)
 				location.reload()
 			})
@@ -61,7 +59,7 @@ angular.module('appApp')
 			
 		}
 		$http({
-			url: Idz+"/anli",
+			url: Idz+"/anli2",
 			method: "get",
 		}).then(function(data) {
 			console.log(data)
@@ -100,10 +98,11 @@ angular.module('appApp')
 				$scope.shan = function($index){
 					console.log($index)
 					$http({
-						url: Idz+"/anli/?id="+$scope.arr[$index].id,
+						url: Idz+"/anli2/?id="+$scope.arr[$index].id,
 						method: "delete"
 					}).then(function(data){
 						console.log(data)
+						location.reload()
 						$scope.arr.splice($index,1)
 					})
 				}
@@ -120,7 +119,7 @@ angular.module('appApp')
 //			u+=4;
 		$scope.arr = [];
 			$http({
-				url: Idz+"/anli",
+				url: Idz+"/anli2",
 				method: "get",
 			}).then(function(data) {
 				console.log(data)

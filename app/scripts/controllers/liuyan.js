@@ -39,6 +39,8 @@ angular.module('appApp')
 					}).then(function(data) {
 						console.log(data)
 						$state.go('word')
+					},function(){
+						alert('请登录')
 					})
 				}
 			}
