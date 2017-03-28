@@ -61,12 +61,10 @@
 .lby_news ul li span {
   font-size: 0.6rem;
   float: left;
-  width: 11rem;
-  margin: -0.2rem 0 0 0.45rem;
-  line-height: 1.3rem;
+  margin: 0.3rem 0 0 0.45rem;
 }
 .lby_news ul li img {
-  float: right;
+  float: left;
   width: 2.25rem;
   height: 2.25rem;
   margin-right: 0.45rem;
@@ -150,7 +148,7 @@
   background: #f5d3d3;
   color: #666;
 }
-.nav .lby_right {
+.nav .right {
   width: 9.75rem;
   height: 100%;
   float: left;

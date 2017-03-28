@@ -22,9 +22,9 @@
 .release input {
   float: right;
   width: 3rem;
-  height: 1rem;
-  font-size: 0.5rem;
-  margin-top: 3%;
+  height: 1.5rem;
+  font-size: 0.7rem;
+  margin-top: 2%;
   border-radius: 0.3rem 0.3rem 0.3rem 0.3rem;
   color: #ce2122;
   background: #B92C28;
@@ -68,7 +68,6 @@
   opacity: 0;
 }
 .releaseContent > p {
-  padding: 0 5%;
   width: 100%;
   height: 2rem;
   background: #ce2122;
@@ -85,7 +84,7 @@
 }
 .releaseContent > ul {
   width: 100%;
-  padding: 0 5%;
+  padding: 0 2%;
 }
 .releaseContent > ul > li {
   border-bottom: .05rem solid #CCCCCC;
@@ -98,6 +97,8 @@
   height: 3.25rem;
   line-height: 3.25rem;
   margin-right: 2%;	
+  position: relative;
+  top: -0.5rem;
 }
 .releaseContent > ul > li > p > span:nth-child(1) > img {
   width: 3.25rem;
@@ -107,7 +108,7 @@
   display: inline-block;
   width: 9rem;
   height: 2rem;
-  line-height: 1rem;
+  line-height: 1.2rem;
   font-size: 0.7rem;
 }
 .releaseContent a{

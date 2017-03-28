@@ -10,12 +10,13 @@
   height: 4.025rem;
   background: url(../images/wall6.jpg);
   background-size: 100% 100%;
-  text-align: center;
   color: #FFFFFF;
-  line-height: 4.025rem;
+  padding: 0 2%;
+  padding-top: 1rem;
 }
 .xiangqing .biaoti b {
   font-size: 0.75rem;
+  
 }
 
 .xiangqing p {

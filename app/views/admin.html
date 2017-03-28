@@ -24,10 +24,10 @@
 		<textarea ng-model="xinwen" style="width: 14.9rem;height: 5rem;border-radius: 5px;"></textarea>
 	</div>
 	<div class="releaseContent">
-		<p style="margin-top: 11rem;">已有新闻</p>
+		<p style="margin-top: 11rem;padding-left: 5%;">已有新闻</p>
 		<ul class="ul">
 			<li ng-repeat="a in quan">
-				<p><span><img src="images/a (1).gif"></span><span>{{a.title}}<a ng-click="shan($index)" class="dian">删除</a></span></p>
+				<p><span><img src="images/a (1).gif"></span><span>{{a.title}}</span><a ng-click="shan($index)" class="dian" style="float: right;display: block;text-align: right;">删除</a></p>
 				<p></p>
 			</li>
 		</ul>
