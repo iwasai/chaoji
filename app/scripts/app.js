@@ -60,7 +60,7 @@ angular.module('appApp', ['ui.router'])
 			})
 		$urlRouterProvider.otherwise('/list')
 	}])
-	
+	var Idz = 'http://47.88.16.225:406';
 	function Top(){
 			$('body').animate({scrollTop:0});
 		}

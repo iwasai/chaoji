@@ -94,7 +94,7 @@ angular.module('appApp')
 			alert('请输入您的电话号码');
 		}else{
 			$http({
-				url:"http://47.88.16.225:406/users",
+				url:Idz+"/users",
 				method:"POST",
 				data:{
 					username:$scope.username,

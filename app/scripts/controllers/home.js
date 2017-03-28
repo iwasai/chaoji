@@ -11,7 +11,7 @@
 angular.module("appApp")
 	.controller('jgr',['$scope','$http','$state',function($scope,$http,$state){
 		$http({
-				url:"http://47.88.16.225:406/news",
+				url:Idz+"/news",
 				method:"get",
 			}).then(function(data){
 				console.log(data)
@@ -20,7 +20,7 @@ angular.module("appApp")
 		$scope.di = function($index){
 			$scope.arr = [];
 			$http({
-					url: "http://47.88.16.225:406/news",
+					url: Idz+"/news",
 					method: "get",
 			}).then(function(data) {
 				$state.go('xiangqing')

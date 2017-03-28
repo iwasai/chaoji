@@ -12,7 +12,7 @@ angular.module('appApp')
 	.controller('yan',['$scope','$http','$state',function($scope,$http,$state){
 		$scope.arr =  [];
 			$http({
-				url:"http://47.88.16.225:406/users",
+				url:Idz+"/users",
 				method:"get"
 			}).then(function(data){
 				console.log(data)
@@ -21,7 +21,7 @@ angular.module('appApp')
 					$scope.arr.push($scope.dd[i])
 					$scope.shanchu = function($index){
 						$http({
-							url:"http://47.88.16.225:406/users/?id="+$scope.arr[$index].id,
+							url:Idz+"/users/?id="+$scope.arr[$index].id,
 							method:"delete"
 						}).then(function(data){
 							console.log(data)
@@ -40,7 +40,7 @@ angular.module('appApp')
 		$scope.fabu = function(){
 			alert($scope.xinwen)
 			$http({
-				url:"http://47.88.16.225:406/news",
+				url:Idz+"/news",
 				method:"post",
 				data:{
 					content:$scope.xinwen,
@@ -55,7 +55,7 @@ angular.module('appApp')
 		}
 			$scope.aty = [];
 			$http({
-				url:"http://47.88.16.225:406/news",
+				url:Idz+"/news",
 				method:"get",
 			}).then(function(data){
 				$scope.quan = data.data;
@@ -63,7 +63,7 @@ angular.module('appApp')
 						$scope.aty.push($scope.quan[i])
 						$scope.shan = function($index){
 							$http({
-								url:"http://47.88.16.225:406/news/?id="+$scope.aty[$index].id,
+								url:Idz+"/news/?id="+$scope.aty[$index].id,
 								method:"delete"
 							}).then(function(data){
 								console.log(data)

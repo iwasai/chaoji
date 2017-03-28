@@ -12,7 +12,7 @@ angular.module("appApp")
 	.controller('xiangqing', ['$scope', '$http', '$state', function($scope, $http, $state) {
 		$scope.arr = [];
 		$http({
-				url: "http://47.88.16.225:406/news",
+				url: Idz+"/news",
 				method: "get",
 		}).then(function(data) {
 				console.log(data)
@@ -22,7 +22,7 @@ angular.module("appApp")
 				}
 				for(var i = 0; i < $scope.arr.length; i++) {
 					$http({
-						url: "http://47.88.16.225:406/news/?id=" + localStorage.index,
+						url: Idz+"/news/?id=" + localStorage.index,
 						method: "get",
 					}).then(function(data) {
 						console.log(data)

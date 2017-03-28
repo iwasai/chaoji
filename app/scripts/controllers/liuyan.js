@@ -30,7 +30,7 @@ angular.module('appApp')
 					}
 				} else {
 					$http({
-						url: "http://47.88.16.225:406/users/?id=" + localStorage.getItem('ta'),
+						url: Idz+"/users/?id=" + localStorage.getItem('ta'),
 						method: "POST",
 						data: {
 							name:$scope.xingming,

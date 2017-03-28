@@ -12,7 +12,7 @@ angular.module('appApp')
 	.controller('list',['$scope','$http','$state',function($scope,$http,$state){
 		$scope.denglu = function(){
 			$http({
-				url:"http://47.88.16.225:406/users/login",
+				url:Idz+"/users/login",
 				method:"POST",
 				data:{
 					username:$scope.username,
@@ -27,7 +27,7 @@ angular.module('appApp')
 				alert('登陆成功')
 				$http({
 					method:"get",
-					url:"http://47.88.16.225:406/users/?id="+localStorage.getItem('ta')
+					url:Idz+"/users/?id="+localStorage.getItem('ta')
 				}).then(function(e){
 					console.log(e)
 					if(e.data.level == 1){

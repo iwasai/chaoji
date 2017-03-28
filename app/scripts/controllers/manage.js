@@ -47,7 +47,7 @@ angular.module('appApp')
 				ding.style.display='none'
 			}else{
 				$http({
-				url: "http://47.88.16.225:406/anli",
+				url: Idz+"/anli",
 				method: "post",
 				data: {
 					img: $scope.img
@@ -61,7 +61,7 @@ angular.module('appApp')
 			
 		}
 		$http({
-			url: "http://47.88.16.225:406/anli",
+			url: Idz+"/anli",
 			method: "get",
 		}).then(function(data) {
 			console.log(data)
@@ -100,7 +100,7 @@ angular.module('appApp')
 				$scope.shan = function($index){
 					console.log($index)
 					$http({
-						url: "http://47.88.16.225:406/anli/?id="+$scope.arr[$index].id,
+						url: Idz+"/anli/?id="+$scope.arr[$index].id,
 						method: "delete"
 					}).then(function(data){
 						console.log(data)
@@ -120,7 +120,7 @@ angular.module('appApp')
 //			u+=4;
 		$scope.arr = [];
 			$http({
-				url: "http://47.88.16.225:406/anli",
+				url: Idz+"/anli",
 				method: "get",
 			}).then(function(data) {
 				console.log(data)
