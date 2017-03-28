@@ -42,7 +42,7 @@ angular.module('appApp')
 			var img = document.getElementsByClassName('imgSrc')[0]
 			$scope.img = img.src
 			if(img.src == ''){
-				alert('hahha')
+				alert('请插入图片')
 			}else{
 				$http({
 				url: "http://47.88.16.225:406/anli",
