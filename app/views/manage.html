@@ -5,25 +5,23 @@
 	</div>
 	<div id="content">
 		<div id="image-wrap" style="width: 14.9rem;height: 5rem;">
-
 		</div>
 		<input type="button" value="添加案例" id="but" style="text-align: center;margin-top: 0.5rem;width: 14.9rem;height: 2.4rem;" />
 		<input id="file" type="file" style="width: 14.9rem;margin-left: -1%;margin-top: -16%;" />
 		<textarea id="result" rows=3 cols=3 style="display: none;"></textarea>
 	</div>
-
 	<div class="case releaseContent">
 		<p style="margin-top: 4rem;">已有案例</p>
 	</div>
-	<div class="chart">
-		<ul class="ul">
+	<div class="chart" style="clear: both;">
+		<ul class="ul" style="clear: both;">
 			<li ng-repeat="time in arr1"><img ng-src="{{time.img}}" /><button style="position: relative;top: -3.5rem;width: 2rem;height: 1rem;background: #C12E2A;color: #FFFFFF;border: none;left: 5rem;" ng-click="shan($index)">删除</button></li>
 		</ul>
-		<div style="margin: 0 auto;text-align: center;">
+	</div>
+	<div style="margin: 0 auto;text-align: center;width: 100%;float: left;">
 			<button ng-click="btn()" style="width: 3rem;height: 1.5rem;font-size: 0.6rem;">上一页</button>
 			<a ng-repeat="a in arr2" style="padding: 0 10px;font-size: 0.7rem;" ng-click="btn1($index)" ng-style="{'color':'{{a.n2}}'}">{{$index+1}}</a>
 			<button ng-click="btn2()" style="width: 3rem;height: 1.5rem;font-size: 0.6rem;">下一页</button>
-		</div>
 	</div>
 	<div class="footers">
 		<ul>
