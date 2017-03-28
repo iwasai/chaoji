@@ -201,4 +201,26 @@
   margin-top: 5%;
   font-size: 0.7rem;
 }
+.ding{
+	width: 100%;
+	height: 100%;
+	background: rgba(0,0,0,0.5);
+	position: fixed;
+	top: 0;
+	left: 0;
+	display: none;
+}
+.ding>div{
+	width: 5rem;
+	height: 4rem;.
+	border-radius: 5rem 5rem 5rem 5rem;
+	position: fixed;
+	top: 10rem;
+	left: 5.5rem;
+}
+.ding>div>img{
+	width: 5rem;
+	height: 4rem;
+	border-radius: 50%;
+}
 /*# sourceMappingURL=admin.css.map */

@@ -40,9 +40,11 @@ angular.module('appApp')
 		$scope.img = []
 		$scope.odd = function() {
 			var img = document.getElementsByClassName('imgSrc')[0]
+			var ding = document.getElementsByClassName('ding')[0]
 			$scope.img = img.src
 			if(img.src == ''){
 				alert('请插入图片')
+				ding.style.display='none'
 			}else{
 				$http({
 				url: "http://47.88.16.225:406/anli",
@@ -51,6 +53,7 @@ angular.module('appApp')
 					img: $scope.img
 				}
 			}).then(function(data) {
+				ding.style.display='block'
 				console.log(data)
 				location.reload()
 			})
