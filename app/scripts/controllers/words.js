@@ -38,7 +38,6 @@ angular.module('appApp')
 	.controller('anli',['$scope','$http','$state',function($scope,$http,$state){
 		$scope.xinwen = '';
 		$scope.fabu = function(){
-			alert($scope.xinwen)
 			$http({
 				url:Idz+"/news",
 				method:"post",
@@ -51,6 +50,7 @@ angular.module('appApp')
 				}
 			}).then(function(data){
 				console.log(data)
+				location.reload()
 			})
 		}
 			$scope.aty = [];
